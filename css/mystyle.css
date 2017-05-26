@@ -10,13 +10,18 @@ body, h1, h2, h3, h4, h5, h6 {
 	font-family: "Montserrat", sans-serif
 }
 
+nav {
+    animation-duration: 6s;
+}
+
 body {
 	font-family:oswald, helvetica, arial, sans-serif;
-	background-image: url("img/ric.jpg");
+	background: url("../img/fon.jpg");
 	background-size:cover;
 	background-attachment: fixed;
 	background-position:0 0px;
 }
+
 
 .contenedor {
 	width: 90%;
@@ -67,23 +72,26 @@ header {
 	color: #fff;
 	position: relative;
 	font-weight: 400;
+    animation-duration: 4s;
 }
 
+.barra{
+    animation-duration: 3s;
+}
 .titulo h1, .titulo p{
-	background: rgba(0,0,0,.8);
 	display: inline-block;
 	padding: 10px 20x;
 }
 
 .titulo h1{
-	font-size: 40px;
-	letter-spacing: 2.5px;
+	font-size: 50px;
+	letter-spacing: 2px;
 	font-weight: normal;
 }
 
 .titulo p{
-	font-size: 20px;
-	letter-spacing: 2.5px;
+	font-size: 30px;
+	letter-spacing: 2px;
 }
 
 .principal{
@@ -99,8 +107,6 @@ header {
 	font-size: 15px;
 	letter-spacing: 2.5px;
 }
-
-
 
 .w3-padding-64{
 	padding: 250px 0; /*arriba y abajo*/
