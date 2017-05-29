@@ -124,3 +124,17 @@ header {
 	font-size: 15px;
 	letter-spacing: 2.5px;
 }
+
+.fotos{
+    align-content: center;
+    max-width: 970px;
+    max-height: 500px;
+}
+
+.cierre{
+    text-align: center;
+}
+
+.linea{
+    width:970px;
+}
