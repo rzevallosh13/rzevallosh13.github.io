@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
   var ancho = $(window).width();
  
@@ -52,4 +51,5 @@ $(document).ready(function(){
     });
   }
   
-});
+}
+);

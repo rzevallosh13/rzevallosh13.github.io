@@ -11,22 +11,62 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-    animation-duration: 6s;
+    transition: all .8s;
+    top: 3em;
 }
 
 body {
 	font-family:oswald, helvetica, arial, sans-serif;
 	background: url("../img/caja.jpg");
+	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
 	background-position:0 0px;
+
 }
 
 
 .contenedor {
 	width: 90%;
-	max-width: 1000px;
+	max-width: 900px; /*1000*/
 	margin: auto;
+	position: relative;
+	text-align: center;
+
+}
+
+.contenedor h2{
+		text-align: left;
+}
+
+.contenedor p{
+		text-align: justify;
+}
+
+article {
+	background:rgba(24,8,33,.9);
+	padding:20px;
+	margin:20px 0;
+	color:#fff;
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+ 
+article h2 {
+	color:#fff;
+}
+ 
+article hr {
+	background:#F64740;
+	height:5px;
+	border:none;
+}
+
+article p {
+	line-height: 25px;
+}
+ 
+article h2, article p, article hr {
+	margin-bottom: 20px;
 }
 
 .w3-row-padding img {
@@ -79,21 +119,43 @@ header {
     position: relative;
 }
 .barra{
-    animation-duration: 3s;
+    left: -20em;
+    /*animation-duration: 3s;*/
 }
+
+nav.mostrar{
+	left: 0;
+}
+
+#mostrar-nav{
+	position: relative;
+	position:fixed;
+	top: 0.3em;
+	left: 1em;
+	width: 20px;
+	height: 25px;
+	cursor: pointer;
+	background: url("../img/menuicono.png");
+	z-index: 50;
+}
+
+#myNavbar{
+	padding-left: 3.5em;
+}
+
 .titulo h1, .titulo p{
 	display: inline-block;
 	padding: 10px 20x;
 }
 
 .titulo h1{
-	font-size: 50px;
+	font-size: 40px;
 	letter-spacing: 2px;
 	font-weight: normal;
 }
 
 .titulo p{
-	font-size: 30px;
+	font-size: 25px;
 	letter-spacing: 2px;
 }
 
