@@ -9,3 +9,4 @@ $('#graficos').on('click',function(){
     estaCol.style.boxShadow = "inset 0 -"+ pinta +"px 0 0 black"; 
   }
 });
+
