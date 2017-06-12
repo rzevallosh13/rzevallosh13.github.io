@@ -7,5 +7,5 @@ $('#graficos').on('click',function(){
     pinta = ( (parseInt(estaCol.innerHTML) / 100) * estaCol.offsetHeight ).toFixed(0); 
     
     estaCol.style.boxShadow = "inset 0 -"+ pinta +"px 0 0 black"; 
-  }; 
-})
+  }
+});

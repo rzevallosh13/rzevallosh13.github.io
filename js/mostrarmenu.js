@@ -1,3 +1,7 @@
-$('#mostrar-nav').on('click',function(){
-	$('nav').toggleClass('mostrar');
-})
+
+
+		$('#mostrar-nav').on('click',function(){
+			$('nav').toggleClass('mostrar');
+		});
+
+

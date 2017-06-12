@@ -36,7 +36,7 @@ $(document).ready(function(){
         detect_on: 'canvas', // "canvas" or "window"
         mode: 'grab',
         line_linked: {
-          opacity: .5
+          opacity: 0.5
         },
         events: {
           onclick: {
